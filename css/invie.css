@@ -91,19 +91,22 @@ cursor: pointer;
 .derecha{
 	float: right;
 	position: relative;
-	top: -127px;
+	top: -100px;
+	
 
 }
 .izquierda {
 	float: left;
 	position: relative;
-	top: 80px;
-
+	height: 300px;
 }
 
 .guitarra{
-	border: 1px solid  #1f313c;
+	border: 2px solid  #1f313c;
 	border-radius: 8px;
+	margin: 30px;
+	height:250px;
+
 }
 .guitarra ol{
 	
@@ -123,12 +126,14 @@ cursor: pointer;
 .footer{
 	background: #273b47;
 	color: white;
+	font-family: 'Montserrat', sans-serif;
 
 	}
 
 	.footer .contenedor {
 		display: flex;
 		justify-content: space-between;
+
 			}
 
 .contacto{
@@ -159,6 +164,7 @@ cursor: pointer;
 
 .formulario label {
 	margin-bottom: 15px;
+	text-decoration: none;
 }	
 
 .col1, .col2{
@@ -168,12 +174,24 @@ cursor: pointer;
 
 .col1{
 	margin-right: 15px;
-
 }
 
+
+.col1 label{
+	text-decoration: none;
+
+}
 .col2{
 	align-items: flex-start;
+
 }
+
+
+
+.col2 input{
+margin : 10px;
+}
+
 .intereses label{
 	font-size: 12px;
 }
@@ -186,11 +204,15 @@ cursor: pointer;
 
 table {
 	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
 }
 
 
 th, td{
 	padding: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
 }	
 
 th{
